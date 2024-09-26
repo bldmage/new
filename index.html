@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magesh B - Web Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            transition: transform 0.3s;
+        }
+        h1:hover {
+            transform: scale(1.1);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .bio {
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .bio:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .project {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+			background-color:#FFEB00;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4a90e2;
+            color: white;
+        }
+        .social-icons {
+            margin: 10px 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ffcc00;
+        }
+        .developer-icon, .coding-icon {
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+        .developer-icon:hover, .coding-icon:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <h1>Magesh B</h1>
+        <div class="nav">
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+            <span class="developer-icon">👨‍💻</span>
+        </div>
+    </header>
+    <div class="bio" id="about">
+        <h2>About Me</h2>
+        <p>Magesh B, Web Developer, Student, Software Engineer. Passionate web developer with a knack for creating visually stunning and user-friendly websites. I love to explore new technologies and push the boundaries of web design.</p>
+    </div>
+    <div class="projects">
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A responsive website built using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>An interactive web application that utilizes APIs for dynamic content.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>A portfolio website showcasing my work and skills.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/bld_mage_?igsh=MW5zd21uNm1odjFu" target="_blank" alt="instagram">📷</a>
+            <a href="https://facebook.com" target="_blank">📘</a>
+            <a href="https://youtube.com" target="_blank">📺</a>
+            <a href="https://t.me/Cryptoearnmmm" target="_blank">📱</a>
+        </div>
+        <p>&copy; 2024 Magesh B. All rights reserved.</p>
+    </footer>
+</body>
+</html>

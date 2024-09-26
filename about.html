@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h1 {
+            text-align: center;
+            color: #007acc;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #005f99;
+        }
+    </style>
+</head>
+<body>
+    <button class="back-button" onclick="window.history.back();">Back</button>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>I am a passionate web developer with over 4 years of experience in creating dynamic and responsive web applications. Proficient in HTML, CSS, JavaScript, and popular frameworks like React and Node.js, I thrive on transforming complex problems into user-friendly solutions. My expertise includes optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. I have successfully led projects that increased user engagement by 35% and reduced load times by 50%. Committed to continuous learning, I stay updated with the latest industry trends and technologies. In my spare time, I enjoy contributing to open-source projects and mentoring aspiring developers. Let's collaborate to bring your vision to life!</p>
+    </div>
+</body>
+</html>
